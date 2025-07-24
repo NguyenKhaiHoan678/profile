@@ -4,16 +4,72 @@
     <title> PROFILE Nguyễn Khải Hoàn </title>
     <meta charset="UTF-8">
 
+    <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      padding: 30px;
+      text-align: center;
+      max-width: 350px;
+      transition: transform 0.3s;
+    }
+
+    .profile-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .profile-name {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .facebook-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #1877F2;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+
+    .facebook-link:hover {
+      background-color: #145dbf;
+    }
+
+    .facebook-icon {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+  </style>
     <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <div> </div>
+        <div class="container"> 
         <h1> PROFILE </h1>
         <h4> Name   : Nguyễn Khải Hoàn </h4>
-        <a href="https://www.facebook.com/HoanNK2008/" rel="me"> Facebook </a>
+    <div class="social">
+        <h4> Facebook   : <a href="https://www.facebook.com/HoanNK2008/" rel="me"> Nguyễn Hoàn </a></h4>
+    </div>
         <h4> Email  : nguyenkhaihoan2008@gmail.com </h4>
+        <h4> Tiktok : <a href="https://www.tiktok.com/@hoannk2008" rel="me"> @hoannk67 </a></h4>
         <h4> Date   : 06/07/2008 </h4>
         <h4> Sex    : Male </h4>
         <h4> Nation : Việt Nam </h4>
+        </div>
     </body>
 </html>
